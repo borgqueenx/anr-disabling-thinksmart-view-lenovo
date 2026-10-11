@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_description">Targets only com.android.systemui ANR dialogs on the Lenovo ThinkSmart View Android 8.1 ROM.</string>
+</resources>

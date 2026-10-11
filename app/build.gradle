@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'net.example.thinksmart.anrsilencer'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId 'net.example.thinksmart.anrsilencer'
+        minSdk 27
+        targetSdk 27
+        versionCode 1
+        versionName '0.1-test'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // Xposed API is provided by LSPosed at runtime; do not bundle it.
+    compileOnly 'de.robv.android.xposed:api:82'
+}
